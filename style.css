@@ -6,6 +6,13 @@
     text-align: center;
 }
 
+.imageBox {
+    margin: auto;
+    margin-top: 10px;
+    height: 480px;
+    width: 600px;
+}
+
 #mainImage {
     max-width: 100%;
     margin:0 auto;
@@ -36,7 +43,7 @@ img.thumbnailImage {
 }
 
 /*現状なし*/
-.current_images {
+.current_image {
     border: 3px solid white;
 }
 
