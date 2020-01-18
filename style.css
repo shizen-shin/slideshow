@@ -3,6 +3,7 @@
     border:1px solid black;
     width: 680px;
     background-color: black;
+    text-align: center;
 }
 
 #mainImage {
@@ -22,10 +23,11 @@ ul {
 }
 
 li {
-    float: left;
+    /*float: left;
     margin-right: 10px;
     width: 90px;
-    height:60px;
+    height:60px;*/
+    display: inline;
 }
 
 img.thumbnailImage {
