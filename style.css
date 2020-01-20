@@ -1,74 +1,90 @@
 .container {
     margin:0 auto;
-    border:1px solid black;
-    width: 680px;
+    border:4px solid lightgray;
+    max-width: 680px;
     background-color: black;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .imageBox {
-    margin: auto;
+    margin:auto;
     margin-top: 10px;
-    height: 480px;
-    width: 600px;
+    max-height: 460px;
+    max-width: 600px;
+    background-color:black;
+    padding: 5px 5px 0px 5px;
 }
 
 #mainImage {
     max-width: 100%;
-    margin:0 auto;
+    margin: auto;
 }
 
 #thumbnails {
-    margin:5px;
+    background-color: red;
 }
 
 ul {
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+    overflow:hidden;
     list-style-type: none;
+    cursor: pointer;
 }
 
 li {
-    /*float: left;
-    margin-right: 10px;
-    width: 90px;
-    height:60px;*/
-    display: inline;
+    float: left;
+    margin: 3px;
+    width: 92px;
+    height:60px;
 }
 
 img.thumbnailImage {
-    width: 90px;
+    width: 95px;
     height: 60px;
 }
 
-/*現状なし*/
-.current_image {
-    border: 3px solid white;
-}
-
 .toolbar {
+    background-color: yellow;
     overflow: hidden;
     text-align: center;
+  
 }
 
 .nav {
     display: inline-block;
+    background-color: rgb(255, 0, 13);
+    width:150px;
+  
 }
 
 #prev {
-    color: white;
-    float: left;
     width: 40px;
-    height: 40px;
+    height:20px;
+    float:left;
+    color: white;
     cursor: pointer;
+    background-color: green;
+}
+
+#next {
+    width: 40px;
+    height:20px;
+    float:left;
+    color: white;
+    cursor: pointer;
+    background-color: green;
+}
+
+#page {
+    display: inline-block;
+    float:left;
+    height:20px;
+    color: white;
+    cursor: pointer;
+    background-color: purple;
 }
 
 
-#next {
-    color: white;
-    float: left;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
+/*現状なし*/
+.currentImage {
+    border: 3px solid white;
 }
