@@ -10,9 +10,9 @@
     margin:auto;
     margin-top: 10px;
     max-height: 460px;
-    max-width: 600px;
+    max-width: 590px;
     background-color:black;
-    padding: 5px 5px 0px 5px;
+    padding: 5px 5px 0px 10px;
 }
 
 #mainImage {
@@ -21,18 +21,18 @@
 }
 
 #thumbnails {
-    background-color: red;
 }
 
 ul {
     overflow:hidden;
     list-style-type: none;
     cursor: pointer;
+    margin: 5px auto 15px;
 }
 
 li {
     float: left;
-    margin: 3px;
+    margin: 4px;
     width: 92px;
     height:60px;
 }
@@ -43,16 +43,16 @@ img.thumbnailImage {
 }
 
 .toolbar {
-    background-color: yellow;
     overflow: hidden;
     text-align: center;
+    margin: 0 0 10px;
   
 }
 
 .nav {
     display: inline-block;
-    background-color: rgb(255, 0, 13);
     width:150px;
+    padding: 0 0 0 40px;
   
 }
 
@@ -62,7 +62,6 @@ img.thumbnailImage {
     float:left;
     color: white;
     cursor: pointer;
-    background-color: green;
 }
 
 #next {
@@ -71,7 +70,6 @@ img.thumbnailImage {
     float:left;
     color: white;
     cursor: pointer;
-    background-color: green;
 }
 
 #page {
@@ -80,7 +78,6 @@ img.thumbnailImage {
     height:20px;
     color: white;
     cursor: pointer;
-    background-color: purple;
 }
 
 
