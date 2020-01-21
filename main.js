@@ -10,6 +10,7 @@
       mainImage.src = 'images/' + this.dataset.image;// imgタグのsrc属性を書き換える
       current = this.dataset.index;
       dpn();
+      wbc();
     });
   }
 
@@ -37,6 +38,7 @@
       }
       mainImage.src = images[current];
       dpn();
+      wbc();
   })
 
   next.addEventListener('click',function(){
@@ -47,6 +49,17 @@
       }
       mainImage.src = images[current];
       dpn();
+      wbc();
   })
+
+  function wbc(){  /*white border current*/
+    var thums = document.getElementsByClassName('thumbnailImage');
+    for(i=0;i<thums.length;i++){
+        thums[i].style.border="";
+    }
+    thums[current].style.border="solid white 3px";
+  }
+
+  wbc();
 
 })();
