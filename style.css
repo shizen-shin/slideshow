@@ -12,7 +12,7 @@
     max-height: 460px;
     max-width: 590px;
     background-color:black;
-    padding: 5px 5px 0px 0px;
+    padding: 20px auto 0px;
 }
 
 #mainImage {
@@ -27,13 +27,14 @@ ul {
     overflow:hidden;
     list-style-type: none;
     cursor: pointer;
-    margin: 5px auto 15px;
+    margin: 5px 0 15px 0;
+    padding: 0 auto; 
 }
 
 li {
     float: left;
     margin: 4px;
-    width: 92px;
+    width: 95px;
     height:60px;
 }
 
