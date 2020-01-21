@@ -30,4 +30,23 @@
 
   dpn();
 
+  prev.addEventListener('click',function(){
+      current --;
+      if(current == -1){
+          current = images.length-1;
+      }
+      mainImage.src = images[current];
+      dpn();
+  })
+
+  next.addEventListener('click',function(){
+      current ++;
+      console.log(current);
+      if(current == 6){
+        current = 0;
+      }
+      mainImage.src = images[current];
+      dpn();
+  })
+
 })();
